@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/in.css">
+    <title>SignIn</title>
+</head>
+<body>
+    <div class="div_one">
+        <h1>SIGNIN</h1> 
+        <form method="POST" action="api/signin/">
+            <div class="div_form">
+                <label for="username" class="label_user">username</label>
+                <input type="text" name="username" placeholder="user" required class="username"> 
+                <label for="password" class="label_pass">password</label>
+                <input type="password" name="password" placeholder="password" required class="password">
+                <button type="submit" class="btn">SingIn</button>
+                <a href="/signup">SignUp</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

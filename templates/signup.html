@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/up.css">
+    <title>SignUp</title>
+</head>
+<body>
+    <div class="div_one">
+        <h1>SIGNUP</h1>
+            <form method="POST" action="api/signup">
+                    <div class="div_form">
+                    <label for="username" class="label_user">username</label>
+                    <input type="text" name="username" placeholder="user" required class="username">
+                    <label for="password" class="label_pass">password</label>
+                    <input type="password" name="password" placeholder="password" required class="password">
+                    <label for="email" class="label_email">email</label>
+                    <input type="email" name="email" placeholder="email" required class="email">
+                    <button type="submit" class="btn">singup</button>
+                    <a href="/signin">SignIn</a>
+                 </div>
+        </form>
+    </div>
+</body>
+</html>
